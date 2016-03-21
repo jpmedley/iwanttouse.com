@@ -12,6 +12,9 @@ handlers:
 - url: /
   static_dir: static/
 
+- url: /serviceworker.js
+  static_dir: ../
+
 libraries:
 - name: webapp2
   version: "2.5.1"
